@@ -8,7 +8,7 @@ package jwalterweatherman
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 type Threshold int

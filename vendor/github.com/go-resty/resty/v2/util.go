@@ -9,7 +9,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"mime/multipart"
 	"net/http"
 	"net/textproto"
